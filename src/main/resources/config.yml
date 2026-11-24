@@ -1,0 +1,23 @@
+default-flag: "&7🏳️"
+
+messages:
+  no-permission: "&cអ្នកមិនមានសិទ្ធិប្រើ Command នេះទេ!"
+  reloaded: "&aបានផ្ទុក Config របស់ LemonFlag ឡើងវិញដោយជោគជ័យ!"
+  player-not-found: "&cរកមិនឃើញ Player ឈ្មោះ {player} នៅ Online ទេ!"
+  invalid-code: "&cមិនមានកូដប្រទេស {code} នៅក្នុង config.yml ទេ!"
+  flag-set: "&aបានប្តូរទង់ជាតិរបស់ &e{player} &aទៅជា {flag} &a({code})!"
+  usage: "&eប្រើប្រាស់៖ /lemonflag <reload | set <player> <countryCode>>"
+
+# ប្រើ Country Code (ISO 3166-1 alpha-2)
+flags:
+  KH: "🇰🇭" # Cambodia
+  TH: "🇹🇭" # Thailand
+  VN: "🇻🇳" # Vietnam
+  US: "🇺🇸" # United States
+  SG: "🇸🇬" # Singapore
+  MY: "🇲🇾" # Malaysia
+  JP: "🇯🇵" # Japan
+  KR: "🇰🇷" # South Korea
+  CN: "🇨🇳" # China
+  PH: "🇵🇭" # Philippines
+  ID: "🇮🇩" # Indonesia
