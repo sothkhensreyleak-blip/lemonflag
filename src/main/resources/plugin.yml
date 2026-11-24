@@ -1,7 +1,0 @@
-name: LemonFlag
-version: 3.0.0
-main: com.lemonflag.LemonFlag
-api-version: '1.21'
-softdepend: [PlaceholderAPI]
-author: LemonFlag
-description: Displays player country flags through PlaceholderAPI.
