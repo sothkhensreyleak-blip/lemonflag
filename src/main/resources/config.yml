@@ -1,0 +1,15 @@
+# Icon/Emoji សម្រាប់បង្ហាញតាមរយៈ %lemon_flag%
+default-flag: "🇰🇭"
+
+# ប្រសិនបើចង់ប្តូរ Icon/Emoji ផ្សេងសម្រាប់ Player ណាមួយតាម /lemonflag set <player> <key>
+icons:
+  KH: "🇰🇭"
+  CAMBODIA: "🇰🇭"
+
+messages:
+  no-permission: "&cអ្នកមិនមានសិទ្ធិប្រើ Command នេះទេ!"
+  reloaded: "&aបានផ្ទុក Config របស់ LemonFlag ឡើងវិញដោយជោគជ័យ!"
+  player-not-found: "&cរកមិនឃើញ Player ឈ្មោះ {player} នៅ Online ទេ!"
+  invalid-code: "&cមិនមាន Icon Key {code} នៅក្នុង config.yml ទេ!"
+  flag-set: "&aបានកំណត់ {flag} ឲ្យ &e{player} &aរួចរាល់!"
+  usage: "&eប្រើប្រាស់៖ /lemonflag <reload | set <player> <KH>>"
