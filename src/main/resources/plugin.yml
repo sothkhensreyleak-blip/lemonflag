@@ -1,0 +1,19 @@
+name: LemonFlag
+version: 1.2
+main: com.lemon.flag.LemonFlag
+api-version: '1.20'
+depend: [PlaceholderAPI]
+author: Lemon
+description: Auto-detect player country flag (defaults to Cambodia KH) via %lemon_flag%
+
+commands:
+  lemonflag:
+    description: Manage LemonFlag plugin
+    usage: /lemonflag <reload|set>
+    aliases: [lflag, lf]
+    permission: lemonflag.admin
+
+permissions:
+  lemonflag.admin:
+    description: Allows reloading config and setting player flags
+    default: op
