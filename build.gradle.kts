@@ -1,11 +1,22 @@
-plugins { java }
+
+plugins {
+    java
+}
 
 group = "com.lemonflag"
 version = "3.0.0"
 
 repositories {
-    maven("https://repo.papermc.io/repository/maven-public/")
-    maven("https://repo.extendedclip.com/content/repositories/placeholderapi/")
+    maven {
+        name = "papermc"
+        url = uri("https://repo.papermc.io/repository/maven-public/")
+    }
+
+    maven {
+        name = "placeholderapi"
+        url = uri("https://repo.extendedclip.com/content/repositories/placeholderapi/")
+    }
+
     mavenCentral()
 }
 
