@@ -1,0 +1,7 @@
+name: LemonFlag
+version: 1.0
+main: com.lemon.flag.LemonFlag
+api-version: 1.16
+depend: [PlaceholderAPI]
+author: Lemon
+description: Show player country flag using %lemon_flag%
