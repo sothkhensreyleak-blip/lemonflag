@@ -1,0 +1,33 @@
+resource-pack:
+  enabled: true
+  # ដាក់ Direct Download Link របស់ LEMON-FLAG-ResourcePack-26.2.zip
+  url: "https://example.com/LEMON-FLAG-ResourcePack-26.2.zip"
+  # លេខ SHA-1 Hash ពិតប្រាកដរបស់ Pack អ្នក (គណនារួចជាស្រេច)
+  sha1: "0f5ee7b473717c1abb3ed13d7b5775b61a2563d9"
+  # true = បង្ខំឱ្យ Download (បើចុច Decline នឹង Kick ចេញ), false = ឱ្យជ្រើសរើស Accept ឬ Decline
+  required: true
+  # សារដែលលោតលើអេក្រង់ Player ពេលចូល Server
+  prompt: "<yellow>You need to download this Resource Pack to see the flags!"
+
+default-flag: "🏳️"
+
+# ភ្ជាប់ Unicode ត្រូវតាម default.json ក្នុង LEMON-FLAG-ResourcePack-26.2.zip 100%
+custom-flags:
+  KH: "\uE000"
+  TH: "\uE001"
+  VN: "\uE002"
+  LA: "\uE003"
+  MM: "\uE004"
+  MY: "\uE005"
+  SG: "\uE006"
+  ID: "\uE007"
+  PH: "\uE008"
+  JP: "\uE009"
+  KR: "\uE00A"
+  CN: "\uE00B"
+  US: "\uE00C"
+  GB: "\uE00D"
+  CA: "\uE00E"
+  AU: "\uE00F"
+  FR: "\uE010"
+  DE: "\uE011"

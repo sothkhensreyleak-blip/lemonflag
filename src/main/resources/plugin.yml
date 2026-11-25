@@ -1,0 +1,12 @@
+name: LemonFlag
+version: 3.1.0
+main: ink.lemonmc.lemonflag.LemonFlag
+api-version: '1.21'
+depend: [PlaceholderAPI]
+author: Crownixed
+description: LemonFlag GeoIP - Displays player country flag via PlaceholderAPI
+commands:
+  lemonflag:
+    description: Reload LemonFlag configuration
+    usage: /lemonflag reload
+    permission: lemonflag.admin
